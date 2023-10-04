@@ -1,0 +1,77 @@
+html {
+box-sizing: border-box;
+font-size: 62.5%; /* 1 rem = 10px*/ 
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body {
+font-size: 1.6rem;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.container{
+    background-color: black;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: white;
+    width: 500px;
+}
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.card-title-tl{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.header p{
+    font-weight: 700;
+}
+.header p:last-of-type{
+    font-weight: 400;
+}
+
+.card-title-tl p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.html-icon{
+    width: 20px;
+}
+.card-image-img{
+    width: 100%;
+    display: block;
+}
+
+.card-body{
+    padding: 15px;
+}
+
+.card-body-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons-group{
+    display: flex;
+    gap:10px;
+}
+.card-body-likes{
+    margin-top: 20px;
+}
+.like-span{
+    font-weight: 700;
+}
